@@ -1,12 +1,15 @@
-html{
+html, body{
     height: 100%;
     width: 100%;
     background-color: #6F3A1B;
+    color: white;
+    display: flex;
+    flex-direction: column;
 }
 h1{
     display: flex;
     justify-content: center;
-    color: black;
+    color: white;
     font-family: Vina Sans;
 }
 main{
@@ -14,5 +17,9 @@ main{
     justify-content: space-around;
     color:white;
     font-family: Vina Sans;
-    display: flex;
+
+}
+img{
+    height: 70px;
+    border-radius: 90px;
 }
