@@ -1,3 +1,18 @@
+html{
+    height: 100%;
+    width: 100%;
+    background-color: #6F3A1B;
+}
 h1{
-    font-family: ;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: Vina Sans;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    color:white;
+    font-family: Vina Sans;
+    display: flex;
 }
