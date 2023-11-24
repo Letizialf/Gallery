@@ -15,11 +15,18 @@ h1{
 main{
     display: flex;
     justify-content: space-around;
-    color:white;
     font-family: Vina Sans;
-
+    background-color: white;
+    padding: 50px;
 }
 img{
-    height: 70px;
-    border-radius: 90px;
+    height: 80px;
+    border-radius: 100%100%;
+}
+article{
+    background-color:  #1B506F;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
 }
